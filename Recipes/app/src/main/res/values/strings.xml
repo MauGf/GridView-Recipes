@@ -1,3 +1,165 @@
 <resources>
-    <string name="app_name">Recipes</string>
+    <string name="app_name">Recetas App</string>
+    <string name="desarrollador">Mauricio Alcides Garcia\nCarnet: 2906662015</string>
+    <string name="last_update">Agosto 2019</string>
+    <string name="update_tiltle">Last Update</string>
+    <string name="version_">1.0</string>
+    <string name="version_title">Version</string>
+    <string name="desarrollador_title">Desarrollador:</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="exit">Salir</string>
+    <string name="about">Acerca de</string>
+
+    <string-array name="recetas">
+        <item>Crema de calabaza</item>
+        <item>Salmon al horno</item>
+        <item>Tartaleta</item>
+        <item>Tostada de queso</item>
+        <item>Alitas de pollo</item>
+        <item>Cerdo a la naranja</item>
+        <item>Ensalada de arroz</item>
+        <item>Ensalada de pasta</item>
+        <item>Mejillones al vapor</item>
+        <item>Pollo a la cerveza</item>
+        <item>Pollo al ajillo</item>
+        <item>Pollo dorado</item>
+        <item>Sopa de fideos</item>
+        <item>Sopa de mariscos</item>
+        <item>Pollo en salsa</item>
+    </string-array>
+
+    <string-array name="descripciones">
+        <item>La sopa de calabaza es una especie de puré elaborado con calabaza.
+            Este tipo de sopa se elabora de diferentes formas a lo largo de las diversas
+            cocinas del mundo, ​ sirviéndose tanto fría como caliente.\n\nIngredientes:\n1 calabaza\n2 cebollas\n2 dientes de ajo\n1 cucharada de mantequilla\nAlmendras laminadas para decorar.</item>
+        <item>\nIngredientes:\n500 g. de salmón\n1 limón\n1 cucharadita de eneldo\n1 cucharadita de pimienta\nAlcaparras al gusto.</item>
+        <item>Ingredientes:\n3 manzanas\n250 g. de hojaldre\n2 cucharadas de mantequilla\n1 cucharada de azúcar moreno.</item>
+        <item>Ingredientes:\n1 cebolla grande\n1 cucharada de mantequilla\nPan cortado en rebanadas\nQueso brie\nRodajas de tomate (opcional)</item>
+        <item>Ingredientes:\n
+			8 alitas de pollo\n
+			1 pechuga de pollo\n
+			1 muslo de pollo\n
+			1 pastilla de Avecrem Caldo de Pollo\n
+			Un poco de ajo en polvo\n
+			Un poco de perejil picado\n
+			Un chorro de vino blanco\n
+			1 cucharadas de mantequilla\n
+			Una pizca de pimienta\n
+			Verduras asadas\n
+
+		</item>
+        <item>
+		Ingredientes:\n
+			600 g de lomo entero de cerdo\n
+			1 manojo de espárragos trigueros\n
+			1 pizca de Avecrem Verduras -30% de Sal\n
+			2 cdas. de aceite de oliva\n
+			1 vasito de vino de Jerez\n
+			2 cdas. de mantequilla\n
+			1 pizca de pimienta\n
+			4 naranjas\n
+			3 tomates maduros\n
+			1 cebolla\n
+		</item>
+        <item>
+			Las ensaladas de arroz son un clásico del verano.\n
+			Ingredientes:\n
+			1 pastilla de
+			Avecrem Caldo de Pollo\n2 latas de atún en aceite\n50 g de jamón cocido\n200 g de arroz\n1 lata de maíz\nMayonesa
+		</item>
+        <item>A medida que llega el buen tiempo también vienen las ganas de pasar más tiempo fuera, disfrutando del sol y el calorcito.\n
+			Ingredientes:\n
+			250 g de pasta corta\n
+			200 g de jamón york\n
+			6 rodajas de piña/n
+			1 lata de maíz dulce\n
+			1 lata de atún\n
+			1 pastilla de
+			Avecrem Caldo de Pollo\n
+			1 dl de aceite de oliva virgen extra\n
+			1 cda de mostaza\n
+
+		</item>
+        <item>
+			Ingredientes:\n
+			1 pastilla de Avecrem Caldo de Pescado -30% de sal\n
+			200 gr. pan rallado\n
+			3 huevos batidos\n
+			2 dl. de aceite de oliva\n
+			1 pizca de pimienta blanca\n
+			ralladura de nuez moscada\n
+			3 hojas de perejil fresco/n
+			2 dientes de ajo\n
+			2 cebollas pequeñas\n
+			1 kg. de mejillones\n
+			200 gr. de harina\n
+		</item>
+        <item>
+			Ingredientes:\n
+			1 pollo cortado en cuartos\n
+			33 cl de cerveza\n
+			1 limón\n
+			0,5 pastilla de Avecrem caldo de pollo
+			Avecrem Caldo de Pollo/n\n
+			5 cdas. de aceite de oliva\n
+		</item>
+        <item>
+			Ingrdientes:\n
+			1 pollo pequeño troceado\n
+			1 chorro de aceite de oliva\n
+			1 cabeza de ajos\n
+			1 cda pequeña de orégano\n
+			1 pizca de pimienta negra molida\n
+			250 ml de agua\n
+			100 ml de coñac\n
+		</item>
+        <item>
+			Ingredientes:\n
+			1 pollo\n
+			Pimienta\n
+			Aceite de oliva\n
+			1 vaso de vino blanco\n
+			1 pimiento verde\n
+			2 patatas grandes\n
+			1 limón\n
+			Esencias de Tomillo y Romero\n
+			Esencias de Cuatro Pimientas\n
+			Sal\n
+		</item>
+        <item>
+			Ingredientes:\n
+			1 sobre de Sopa de Pollo con Fideos Finos\n
+			Gallina Blanca\n
+			Sopa de Pollo con fideos finos\n
+			Avellanas tostadas\n
+			Perejil\n
+			Ajo\n
+		</item>
+        <item>
+			Ingredientes:\n
+			300 gr de pescado variado\n
+			50 gr de arroz\n
+			1 litro de Caldo Casero de Pescado 100% Natural\n
+			1 cda de pimentón\n
+			1 copa de brandy\n
+			1 cebolla\n
+			1 bote de Sofrito de Tomate y Verduras\n
+			Aceite de oliva\n
+		</item>
+        <item>
+			Una receta rápida, sencilla, y muy rica.
+			Eso te traemos en esta receta de pechuga de pollo con salsa de queso.
+			Además, es muy barata, así que no tendrás excusa para poder hacer esta receta en tu día a día.\n
+			Ingredientes:\n
+			1 cebolleta\n
+			Pimienta negra al gusto\n
+			150 g de queso rallado\n
+			Orégano al gusto\n
+			1 vaso de vino blanco\n
+			600 ml de nata\n
+			2 pechugas grandes\n
+			Cebollino picado al gusto
+		</item>
+
+    </string-array>
 </resources>
