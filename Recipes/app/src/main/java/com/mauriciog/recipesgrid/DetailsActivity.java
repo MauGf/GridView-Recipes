@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mauriciog.recipesgrid.utils.Tools;
+
 public class DetailsActivity extends AppCompatActivity {
 
     @Override
@@ -23,7 +25,7 @@ public class DetailsActivity extends AppCompatActivity {
             getSupportActionBar ().setDisplayHomeAsUpEnabled (true);
             getSupportActionBar ().setDisplayShowHomeEnabled (true);
         }
-
+        Tools.setSystemBarTransparent (this);
         TextView recetaTitle= (TextView)findViewById (R.id.textTitle);
         TextView descripcion= (TextView)findViewById (R.id.idDescript);
         ImageView imagen=(ImageView)findViewById (R.id.imageDetail);
