@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Recetas App</string>
     <string name="desarrollador">Mauricio Alcides Garcia\nCarnet: 2906662015</string>
-    <string name="last_update">Agosto 2019</string>
+    <string name="last_update">26 de septiembre 2019</string>
     <string name="update_tiltle">Last Update</string>
     <string name="version_">1.0</string>
     <string name="version_title">Version</string>
