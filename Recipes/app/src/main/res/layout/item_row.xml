@@ -1,73 +1,79 @@
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/card_view"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:background="@android:color/white"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    card_view:cardCornerRadius="2dp"
-    card_view:cardElevation="4dp"
-    card_view:cardUseCompatPadding="true"
-    card_view:cardPreventCornerOverlap="true"
-    >
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="5dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:paddingTop="5dp"
-        >
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            >
-            <LinearLayout
-                android:orientation="vertical"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:gravity="center"
-                android:background="@drawable/image_corner"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:scaleType="fitXY"
-                    android:layout_margin="5dp"
-                    android:src="@mipmap/ic_launcher_round"
-                    android:id="@+id/imageView1ID" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="5dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp">
-                <TextView
-                    android:id="@+id/nameTextViewID"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="3dp"
-                    android:singleLine="true"
-                    android:text="Plato"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                    android:textColor="@color/yellow"
-                    android:textStyle="bold"/>
+                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/infoTextViewID"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="3dp"
-                    android:singleLine="true"
-                    android:text="Descripcion"
-                    android:textColor="@color/text_lightblck" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-            </LinearLayout>
-        </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgEscudo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pollo_a_la_cerveza"
+                        android:layout_margin="8dp"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:id="@+id/lay_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="35sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/imgEscudo"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorAccent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvEquipo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Plato"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="10sp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
     </RelativeLayout>
-</androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
