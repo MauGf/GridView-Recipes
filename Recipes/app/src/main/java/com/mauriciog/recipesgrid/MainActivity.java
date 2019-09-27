@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     GridView item;
-    String [] equipo;
+    String [] recetas;
     String [] descripcion;
     int[] imagen={R.drawable.crema_clabaza,
             R.drawable.salmon_alorno,
@@ -36,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
 
-        equipo=getResources ().getStringArray (R.array.recetas);
+        recetas=getResources ().getStringArray (R.array.recetas);
         descripcion=getResources ().getStringArray (R.array.descripciones);
 
-        Adapter adapter= new Adapter (this,equipo,imagen);
+        Adapter adapter= new Adapter (this,recetas,imagen);
         item=(GridView)findViewById (R.id.Id_GridView);
         item.setAdapter (adapter);
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent=new Intent (MainActivity.this, DetailsActivity.class);
-                intent.putExtra ("Titulo", equipo[position]);
+                intent.putExtra ("Titulo", recetas[position]);
                 intent.putExtra ("descripcion", descripcion[position]);
                 intent.putExtra ("imagen",imagen[position]);
                 startActivity (intent);
